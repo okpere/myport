@@ -12,17 +12,19 @@ const Examples = () => {
       imagePath: liberty,
       text: "E-commerce",
       work: "freelance",
-
+      Cheigth: "700",
     },
     {
       imagePath: lighthouse,
       text: "Landing-Page",
       work: "FourtuneHouse",
+      Cheigth: "700",
     },
     {
       imagePath: beetle,
       text: "Project",
       work: "web-development",
+      Cheigth: "800",
     },
   ];
 
@@ -38,15 +40,15 @@ const Examples = () => {
         </p>
       </div>
       <div className="examples-images">
-      {imagesData.map((data, index) => (
-        <ImageContainer
-          key={index}
-          imagePath={data.imagePath}
-          imageHeigth={data.imageHeigth}
-          displayText={data.text}
-          displayWork={data.work}
-        />
-      ))}
+        {imagesData.map((data, index) => (
+          <ImageContainer
+            key={index}
+            imagePath={data.imagePath}
+            imageHeigh={data.Cheigth}
+            displayText={data.text}
+            displayWork={data.work}
+          />
+        ))}
       </div>
     </section>
   );

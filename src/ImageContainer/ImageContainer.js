@@ -6,6 +6,9 @@ const ImageContainer = ({ imagePath, displayText, imageHeight , displayWork}) =>
   return (
     <div
       className="image-container"
+      style={{
+        height: `700px`,
+      }}
     >
       <div
         className="image-overlay"
