@@ -1,0 +1,271 @@
+  .intro {
+    color: aliceblue;
+    height: 100svh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(46, 43, 43, 0.866);
+    background-blend-mode: multiply;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 400px;
+    gap: 350px;
+  }
+  .intro-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro-names {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  .into-button {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+  }
+  .intro h1 {
+    font-family: "poppins-semibold", sans-serif;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: rgb(224, 2, 105);
+  }
+  .intro h2 {
+    font-family: "poppins-semibold", sans-serif;
+    font-size: 6.25rem;
+  }
+  .intro p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .intro button {
+    font-size: 1.4rem;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: gray;
+    border-width: 4px;
+    color: aliceblue;
+  }
+  .intro-links {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+@media only screen and (max-width: 1280px) {
+  .intro {
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(46, 43, 43, 0.866);
+    background-blend-mode: multiply;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    gap: 150px;
+  }
+  .intro-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro-names {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  .into-button {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+  }
+  .intro h1 {
+    font-family: "poppins-semibold", sans-serif;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: rgb(224, 2, 105);
+  }
+  .intro h2 {
+    font-family: "poppins-semibold", sans-serif;
+    font-size: 6.25rem;
+  }
+  .intro p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .intro button {
+    font-size: 1.4rem;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: gray;
+    border-width: 4px;
+    color: aliceblue;
+  }
+  .intro-links {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .intro {
+    color: aliceblue;
+    height: 100svh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(46, 43, 43, 0.866);
+    background-blend-mode: multiply;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 250px;
+    gap: 100px;
+  }
+  .intro h1 {
+    font-family: "poppins-semibold", sans-serif;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: rgb(224, 2, 105);
+  }
+  .intro h2 {
+    font-family: "poppins-semibold", sans-serif;
+    font-size: 4.25rem;
+  }
+  .intro p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+}
+@media only screen and (max-width: 768px) {
+  .intro {
+    color: aliceblue;
+    height: 100svh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(46, 43, 43, 0.866);
+    background-blend-mode: multiply;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    gap: 100px;
+  }
+  .intro-names {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  .intro h1 {
+    font-family: "poppins-semibold", sans-serif;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: rgb(224, 2, 105);
+  }
+  .intro h2 {
+    font-family: "poppins-semibold", sans-serif;
+    font-size: 4rem;
+    text-align: center;
+  }
+  .intro p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .intro button {
+    font-size: 0.8rem;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: gray;
+    border-width: 4px;
+    color: aliceblue;
+  }
+  .into-button {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+  }
+  .intro-links {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .intro {
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(46, 43, 43, 0.866);
+    background-blend-mode: multiply;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 300px;
+    gap: 200px;
+  }
+  .intro-names {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  .intro h1 {
+    font-family: "poppins-semibold", sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: rgb(224, 2, 105);
+  }
+  .intro h2 {
+    font-family: "poppins-semibold", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .intro p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .intro button {
+    font-size: 0.6rem;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: gray;
+    border-width: 4px;
+    color: aliceblue;
+  }
+  .intro-links {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}

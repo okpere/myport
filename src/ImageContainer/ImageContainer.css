@@ -1,0 +1,54 @@
+.image-container {
+  width: 600px;
+  height: 900px;
+}
+
+.image-overlay {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5ms ;
+  overflow: hidden;
+}
+.image-container:hover {
+  background-color: rgba(46, 43, 43, 0.866);
+}
+.image-overlay:hover {
+  background-color: rgba(46, 43, 43, 0.866);
+  background-blend-mode: multiply;
+  transform: scale(1.004);
+  overflow: hidden;
+}
+
+.hover-text {
+  position: absolute;
+  top: 50%;
+  left: -15%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0; /* Initially set the opacity to 0, so it's not visible */
+  transition: all 0.5s; /* Add a smooth transition effect for opacity */
+}
+.image-overlay:hover .hover-text{
+  opacity: 1;
+  left: 50%;
+}
+.displaywork{
+  position: absolute;
+
+  bottom: 40%;
+  left: -15%;
+  transform: translate(-50%, -50%);
+  color:rgb(197, 195, 195);
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0; /* Initially set the opacity to 0, so it's not visible */
+  transition: all 0.5s; /* Add a smooth transition effect for opacity */
+}
+.image-overlay:hover .displaywork{
+  opacity: 1;
+  left: 50%;
+}

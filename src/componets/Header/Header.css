@@ -1,0 +1,33 @@
+.header-intro {
+  position: absolute;
+  position:fixed;
+  z-index: 1;
+  color: aliceblue;
+  background-color: black;
+}
+.header-intro-name {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  width: 200px;
+  background-color: black;
+  padding: 15px;
+}
+.header-open {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  gap: 20px;
+}
+.header-close {
+  display: none;
+}
+.header-intro li:hover {
+  color: rgb(224, 2, 105);
+  transition-duration: 300ms;
+  padding: 0px 10px;
+  cursor: pointer;
+}
