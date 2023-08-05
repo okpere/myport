@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bbdb7bc5.css",
+    "main.js": "/static/js/main.342816ae.js",
+    "static/js/787.ae61a12f.chunk.js": "/static/js/787.ae61a12f.chunk.js",
+    "static/media/intro-bg.jpg": "/static/media/intro-bg.195fe1427b39f2ce2950.jpg",
+    "static/media/liberty.jpg": "/static/media/liberty.d5a7f407788d36593e7c.jpg",
+    "static/media/lighthouse.jpg": "/static/media/lighthouse.bcb5b1d222dcdcab430d.jpg",
+    "static/media/beetle.jpg": "/static/media/beetle.a6652336686104b0eb8f.jpg",
+    "index.html": "/index.html",
+    "main.bbdb7bc5.css.map": "/static/css/main.bbdb7bc5.css.map",
+    "main.342816ae.js.map": "/static/js/main.342816ae.js.map",
+    "787.ae61a12f.chunk.js.map": "/static/js/787.ae61a12f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbdb7bc5.css",
+    "static/js/main.342816ae.js"
+  ]
+}

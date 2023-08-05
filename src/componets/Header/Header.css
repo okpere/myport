@@ -2,6 +2,7 @@
   position: absolute;
   position:fixed;
   z-index: 1;
+  left: 10%;
   color: aliceblue;
   background-color: black;
 }
@@ -10,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 30px;
+  font-size: 1.8rem;
   width: 200px;
   background-color: black;
   padding: 15px;
