@@ -1,8 +1,10 @@
 import logo from "../../assets/intro-bg.jpg";
 import "./Main.css";
 
-import { ImBehance, ImFacebook, ImLinkedin2, ImTumblr } from "react-icons/im";
+import { ImBehance, ImLinkedin2 } from "react-icons/im";
 import { FiChevronDown } from "react-icons/fi";
+import { BsGithub } from "react-icons/bs";
+import { IoLogoTwitter } from "react-icons/io";
 
 const Main = () => {
   return (
@@ -18,19 +20,47 @@ const Main = () => {
         <p>Front-End Developer & Ux-Ui Designer</p>
         <div className="into-button">
           <button>
-            MORE ABOUT ME <FiChevronDown />
+            MY PORTFOLIO <FiChevronDown />
           </button>
           <button>
-            MY PORTFOLIO <FiChevronDown />
+            MORE ABOUT ME <FiChevronDown />
           </button>
         </div>
       </div>
 
       <div className="intro-links">
-        <ImBehance />
-        <ImFacebook />
-        <ImLinkedin2 />
-        <ImTumblr />
+        <a
+          href="https://www.linkedin.com/in/clinton-okpere-404a8421a/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <ImLinkedin2 />
+        </a>
+        <a
+          href="hhttps://github.com/okpere"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <BsGithub />
+        </a>
+        <a
+          href="https://www.behance.net/clintonokpere"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <ImBehance />
+        </a>
+        <a
+          href="https://twitter.com/OkpereC/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <IoLogoTwitter />
+        </a>
+
+        
+        
+        
       </div>
     </section>
   );
