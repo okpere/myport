@@ -1,8 +1,14 @@
 import React from "react";
 import "./About.css";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 const About = () => {
+  useEffect(()=> {
+    AOS.init({duration: 700});
+  },[])
   return (
-    <section className="about">
+    <section className="about" data-aos="flip-right">
       <div className="about-intro">
         <h3>About</h3>
         <p>Let me introduce myself.</p>
