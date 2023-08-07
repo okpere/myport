@@ -33,22 +33,22 @@
 .intro h1 {
   font-family: "poppins-semibold", sans-serif;
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 800;
   color: rgb(224, 2, 105);
 }
 .intro h2 {
   font-family: "poppins-semibold", sans-serif;
-  font-size: 6.25rem;
+  font-size: 5.25rem;
 }
 .intro p {
   font-family: "poppins-semibold", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 .intro button {
-  font-size: 1.4rem;
-  padding: 20px 40px;
+  font-size: 1.2rem;
+  padding: 15px 30px;
   background-color: rgba(0, 0, 0, 0.3);
   border: 0.1em solid gray;
   border-width: 4px;
@@ -61,7 +61,7 @@
 .intro-links {
   position: absolute;
   bottom: 5%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;

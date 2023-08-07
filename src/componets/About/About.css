@@ -4,23 +4,24 @@
   padding: 50px 100px;
 }
 .about-intro {
-  max-width: 850px;
+  max-width: 700px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
 .about-intro h3 {
   color: rgb(224, 2, 105);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: center;
+  letter-spacing: 0.4rem;
 }
 .about-intro p {
   font-size: 2.3rem;
   text-align: center;
 }
 .about-intro span {
-  font-size: 1.8rem;
-  line-height: 2.5rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
   margin-top: 30px;
   color: gray;
   text-align: center;
@@ -28,29 +29,43 @@
 .about-explain {
   display: flex;
   gap: 50px;
-  max-width: 950px;
+  max-width: 850px;
   margin: 0 auto;
 }
-.about-explain_profile span:first-of-type {
-}
-.about-explain_profile p,
-.about-explain_skills li,
-.about-explain_skills p,
-.about-explain_profile_bio p {
+.about-explain_profile h6,
+.about-explain_skills h6
+{
+  font-size: 1.2rem;
+  letter-spacing: 0.4rem;
   margin-top: 40px;
-  font-size: 1.7rem;
+}
+.about-explain_profile p:first-of-type,
+.about-explain_skills p:first-of-type{
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  padding: 20px 0px;
+  color: gray;
+  font-weight: 600;
+  max-width: 500px;
+}
+.about-explain_profile li,
+.about-explain_skills li{
+  margin-top: 40px;
+  font-size: 1.3rem;
   font-weight: 900;
   list-style: none;
 }
+.about-explain_profile  span{
+  color: #464545;
+}
 
-.about-explain_profile span,
 .about-explain_skills span,
 .about-explain_profile_bio span {
   color: gray;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .about-skills {
-  max-width: 500px;
   background-color: #313131;
   border: 1px solid #313131;
   height: 10px;
@@ -124,6 +139,9 @@
     flex-direction: column;
     gap: 50px;
     margin: 0 auto;
+  }
+  .about-intro span{
+    font-size: 1.5rem;
   }
 }
 @media only screen and (max-width: 600px) {

@@ -7,14 +7,13 @@ const ImageContainer = ({ imagePath, displayText, imageHeight , displayWork}) =>
     <div
       className="image-container"
       style={{
-        height: `700px`,
+        height: `${imageHeight}px`,
       }}
     >
       <div
         className="image-overlay"
         style={{
           backgroundImage: `url('${imagePath}')`,
-          height: `${imageHeight}px`,
         }}
       >
         <p className="hover-text">{displayText}</p>

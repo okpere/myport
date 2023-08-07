@@ -1,54 +1,50 @@
 import React from "react";
 import "./About.css";
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const About = () => {
-  useEffect(()=> {
-    AOS.init({duration: 700});
-  },[])
+  useEffect(() => {
+    AOS.init({ duration: 700 });
+  }, []);
   return (
     <section className="about" data-aos="zoom-in">
       <div className="about-intro">
         <h3>About</h3>
         <p>Let me introduce myself.</p>
         <span>
-          Hey there! I'm, a recent graduate from the University
-          of Benin with a BSc in Economics and Statistics. My knack for numbers
-          naturally led me to the captivating world of frontend development.
-          From my very first "Hello, World!" I was hooked.
+          Hey there! I'm, a recent graduate from the University of Benin with a
+          BSc in Economics and Statistics. My knack for numbers naturally led me
+          to the captivating world of frontend development. From my very first
+          "Hello, World!" I was hooked.
         </span>
       </div>
       <div className="about-explain">
         <div className="about-explain_profile">
-          <p>Profile</p>
-          <span>
-            I'm, a dedicated and enthusiastic frontend developer
-            with a unique blend of skills in economics and statistics. A recent
-            graduate from the University of Benin, I hold a BSc degree in
-            Economics and Statistics, which has equipped me with a strong
-            foundation in data analysis and a keen analytical mindset.
-          </span>
-          <div className="about-explain_profile_bio">
-            <p>FULLNAME:</p>
+          <h6>PROFILE</h6>
+          <p>
+            I'm, a dedicated and enthusiastic frontend developer with a unique
+            blend of skills in economics and statistics.
+          </p>
+          <ul>
+            <li>FULLNAME:</li>
             <span>Okpere Clinton Ose</span>
-            <p>BIRTH DATE:</p>
+            <li>BIRTH DATE:</li>
             <span>September 09, 1994</span>
-            <p>JOB:</p>
+            <li>JOB:</li>
             <span>Freelancer, Frontend Developer</span>
-            <p>WEBSITE:</p>
+            <li>WEBSITE:</li>
             <span>Okpere Clinton Ose</span>
-            <p>EMAIL:</p>
+            <li>EMAIL:</li>
             <span>clintonokpere99@gmail.com</span>
-          </div>
+          </ul>
         </div>
         <div className="about-explain_skills">
-          <p>Skills</p>
-          <span>
+          <h6>SKILLS</h6>
+          <p>
             My goal? To keep refining my skills, staying updated with the latest
-            tech, and collaborating with fellow enthusiasts. Whether here are
-            Some my qualificatication, just talk tech, let's connect!
-          </span>
+            tech, and collaborating with enthusiasts.
+          </p>
           <ul className="about-explain_skills_bio">
             <li>HTML5</li>
             <div className="about-skills  about-skills-html">
