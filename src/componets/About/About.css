@@ -21,18 +21,18 @@
 .about-intro span {
   font-size: 1.8rem;
   line-height: 2.5rem;
-  margin-top: 50px;
+  margin-top: 30px;
   color: gray;
   text-align: center;
 }
 .about-explain {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-content: center;
+  gap: 50px;
+  max-width: 950px;
+  margin: 0 auto;
 }
-.about-explain_profile .about-explain_skills {
-  max-width: 300px;
+.about-explain_profile span:first-of-type{
+  background-color: #ff0077;
 }
 .about-explain_profile p,
 .about-explain_skills li,

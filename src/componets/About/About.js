@@ -7,19 +7,21 @@ const About = () => {
         <h3>About</h3>
         <p>Let me introduce myself.</p>
         <span>
-          Lorem ipsum Exercitation culpa qui dolor consequat exercitation fugiat
-          laborum ex ea eiusmod ad do aliqua occaecat nisi ad irure sunt id
-          pariatur Duis laboris amet exercitation veniam labore consectetur ea
-          id quis eiusmod.
+          Hey there! I'm, a recent graduate from the University
+          of Benin with a BSc in Economics and Statistics. My knack for numbers
+          naturally led me to the captivating world of frontend development.
+          From my very first "Hello, World!" I was hooked.
         </span>
       </div>
       <div className="about-explain">
         <div className="about-explain_profile">
           <p>Profile</p>
           <span>
-            Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse
-            in magna sint minim officia consectetur nisi commodo ea magna
-            pariatur nisi cillum.
+            I'm, a dedicated and enthusiastic frontend developer
+            with a unique blend of skills in economics and statistics. A recent
+            graduate from the University of Benin, I hold a BSc degree in
+            Economics and Statistics, which has equipped me with a strong
+            foundation in data analysis and a keen analytical mindset.
           </span>
           <div className="about-explain_profile_bio">
             <p>FULLNAME:</p>
@@ -37,9 +39,9 @@ const About = () => {
         <div className="about-explain_skills">
           <p>Skills</p>
           <span>
-            Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse
-            in magna sint minim officia consectetur nisi commodo ea magna
-            pariatur nisi cillum.
+            My goal? To keep refining my skills, staying updated with the latest
+            tech, and collaborating with fellow enthusiasts. Whether here are
+            Some my qualificatication, just talk tech, let's connect!
           </span>
           <ul className="about-explain_skills_bio">
             <li>HTML5</li>

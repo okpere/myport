@@ -1,12 +1,19 @@
 import React from "react";
 import ImageContainer from "../../ImageContainer/ImageContainer";
 import "./Examples.css";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
+
 
 // Import the images using their relative paths
 import liberty from "../../assets/liberty.jpg";
 import lighthouse from "../../assets/lighthouse.jpg";
 import beetle from "../../assets/beetle.jpg";
 const Examples = () => {
+  useEffect(()=> {
+    AOS.init({duration: 3000});
+  },[])
   const imagesData = [
     {
       imagePath: liberty,
@@ -29,14 +36,16 @@ const Examples = () => {
   ];
 
   return (
-    <section className="examples">
+    <section className="examples" data-aos="zoom-in">
       <div className="examples_info">
         <h4>PORTFOLIO</h4>
         <p>Check Out Some of My Works.</p>
         <p>
-          Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing
-          dolore officia nisi aliqua incididunt Ut veniam lorem ipsum
-          Consectetur ut in in eu do.
+          I'm Clinton Okpere, a frontend developer and economics-statistics
+          graduate. My journey harmonizes analytical prowess with a passion for
+          crafting immersive digital experiences. By merging data insights with
+          design, I create user-centric interfaces. Let's collaborate to shape
+          innovative digital solutions for a dynamic world.
         </p>
       </div>
       <div className="examples-images">

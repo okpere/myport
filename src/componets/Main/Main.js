@@ -1,5 +1,6 @@
 import logo from "../../assets/intro-bg.jpg";
 import "./Main.css";
+
 import { ImBehance, ImFacebook, ImLinkedin2, ImTumblr } from "react-icons/im";
 import { FiChevronDown } from "react-icons/fi";
 
