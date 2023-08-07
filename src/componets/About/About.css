@@ -31,8 +31,7 @@
   max-width: 950px;
   margin: 0 auto;
 }
-.about-explain_profile span:first-of-type{
-  background-color: #ff0077;
+.about-explain_profile span:first-of-type {
 }
 .about-explain_profile p,
 .about-explain_skills li,
