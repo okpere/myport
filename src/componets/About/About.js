@@ -47,28 +47,28 @@ const About = () => {
           </p>
           <ul className="about-explain_skills_bio">
             <li>HTML5</li>
-            <div className="about-skills  about-skills-html">
-              <div></div>
+            <div className="about-skills">
+              <div className="about-skills-html"></div>
             </div>
             <li>Css</li>
-            <div className="about-skills about-skills-css">
-              <div></div>
+            <div className="about-skills">
+              <div className="about-skills-css"></div>
             </div>
             <li>Javascripts</li>
-            <div className="about-skills about-skills-javascripts">
-              <div></div>
+            <div className="about-skills">
+              <div className="about-skills-javascripts"></div>
             </div>
             <li>React</li>
-            <div className="about-skills about-skills-html-react">
-              <div></div>
+            <div className="about-skills">
+              <div className="about-skills-react"></div>
             </div>
             <li>Figma</li>
-            <div className="about-skills about-skills-figma ">
-              <div></div>
+            <div className="about-skills">
+              <div className="about-skills-figma"></div>
             </div>
             <li>Vuejs</li>
-            <div className="about-skills about-skills-vuejs ">
-              <div></div>
+            <div className="about-skills">
+              <div className="about-skills-vuejs"></div>
             </div>
           </ul>
         </div>
