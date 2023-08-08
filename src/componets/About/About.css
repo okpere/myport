@@ -33,14 +33,13 @@
   margin: 0 auto;
 }
 .about-explain_profile h6,
-.about-explain_skills h6
-{
+.about-explain_skills h6 {
   font-size: 1.2rem;
   letter-spacing: 0.4rem;
   margin-top: 40px;
 }
 .about-explain_profile p:first-of-type,
-.about-explain_skills p:first-of-type{
+.about-explain_skills p:first-of-type {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   line-height: 2rem;
@@ -50,13 +49,13 @@
   max-width: 500px;
 }
 .about-explain_profile li,
-.about-explain_skills li{
+.about-explain_skills li {
   margin-top: 40px;
   font-size: 1.3rem;
   font-weight: 900;
   list-style: none;
 }
-.about-explain_profile  span{
+.about-explain_profile span {
   color: #464545;
 }
 
@@ -71,25 +70,25 @@
   height: 10px;
   list-style: none;
 }
-.about-skills-html{
+.about-skills-html {
   width: 0;
   height: 100%;
   background-color: white;
   animation: html 5s linear forwards;
 }
-.about-skills-css{
+.about-skills-css {
   width: 0;
   height: 100%;
   background-color: white;
   animation: css 5s linear forwards;
 }
-.about-skills-javascripts{
+.about-skills-javascripts {
   width: 0;
   height: 100%;
   background-color: white;
   animation: javascripts 5s linear forwards;
 }
-.about-skills-react{
+.about-skills-react {
   width: 0;
   height: 100%;
   background-color: white;
@@ -101,39 +100,39 @@
   background-color: white;
   animation: figma 5s linear forwards;
 }
-.about-skills-vuejs{
+.about-skills-vuejs {
   width: 0;
   height: 100%;
   background-color: white;
   animation: vuejs 5s linear forwards;
 }
-@keyframes html{
-  100%{
+@keyframes html {
+  100% {
     width: 90%;
   }
 }
-@keyframes css{
-  100%{
+@keyframes css {
+  100% {
     width: 90%;
   }
 }
-@keyframes javascripts{
-  100%{
+@keyframes javascripts {
+  100% {
     width: 80%;
   }
 }
-@keyframes react{
-  100%{
+@keyframes react {
+  100% {
     width: 80%;
   }
 }
-@keyframes figma{
-  100%{
+@keyframes figma {
+  100% {
     width: 50%;
   }
 }
-@keyframes vuejs{
-  100%{
+@keyframes vuejs {
+  100% {
     width: 50%;
   }
 }
@@ -151,7 +150,7 @@
   justify-content: center;
   letter-spacing: 0.1rem;
 }
-a{
+a {
   text-decoration: none;
 }
 .hire {
@@ -159,10 +158,10 @@ a{
   color: #000;
   transition: all 300ms;
 }
-.hire:hover{
+.hire:hover {
   border: 3px solid #ff0077;
 }
-.download{
+.download {
   background-color: #313131;
   color: #ffff;
   border: none;
@@ -179,7 +178,7 @@ a{
     gap: 50px;
     margin: 0 auto;
   }
-  .about-intro span{
+  .about-intro span {
     font-size: 1.5rem;
   }
 }
@@ -188,5 +187,15 @@ a{
     background-color: black;
     color: white;
     padding: 50px 30px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .about-explain_button {
+    margin-top: 150px;
+  }
+  .about-explain_button button {
+    width: 150px;
+    letter-spacing: 0;
+    padding: 15px 20px;
   }
 }
