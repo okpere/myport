@@ -5,6 +5,7 @@ import { ImBehance, ImLinkedin2 } from "react-icons/im";
 import { FiChevronDown } from "react-icons/fi";
 import { BsGithub } from "react-icons/bs";
 import { IoLogoTwitter } from "react-icons/io";
+import { Link } from "react-scroll";
 
 const Main = () => {
   return (
@@ -19,12 +20,17 @@ const Main = () => {
         <h2>I'm Okpere Ose Clinton.</h2>
         <p>Front-End Developer & Ux-Ui Designer</p>
         <div className="into-button">
+          <Link  to="about" smooth={true} duration={1000}>
           <button>
             MY PORTFOLIO <FiChevronDown />
           </button>
+          </Link>
+          
+          <Link  to="examples" smooth={true} duration={1000}>
           <button>
             MORE ABOUT ME <FiChevronDown />
           </button>
+          </Link>
         </div>
       </div>
 
@@ -37,7 +43,7 @@ const Main = () => {
           <ImLinkedin2 />
         </a>
         <a
-          href="hhttps://github.com/okpere"
+          href="https://github.com/okpere"
           target="_blank"
           rel="noreferrer noopener"
         >

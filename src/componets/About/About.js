@@ -8,7 +8,7 @@ const About = () => {
     AOS.init({ duration: 700 });
   }, []);
   return (
-    <section className="about" data-aos="zoom-in">
+    <section id="about" className="about" data-aos="zoom-in">
       <div className="about-intro">
         <h3>About</h3>
         <p>Let me introduce myself.</p>
@@ -74,8 +74,20 @@ const About = () => {
         </div>
       </div>
       <div className="about-explain_button">
-        <button>HIRE ME </button>
-        <button>DOWNLOAD CV</button>
+        <a
+          href="https://wa.me/23480953197"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <button className="hire">HIRE ME</button>
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1Df0WVkGiaM4_b2_NwHC6-0kIknUo_nAR/view?usp=drive_link"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <button className="download">DOWNLOAD CV</button>
+        </a>
       </div>
     </section>
   );

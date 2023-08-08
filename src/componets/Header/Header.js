@@ -20,16 +20,16 @@ const Header = () => {
           <p>KLEENT</p>
         </div>
         <ul className={headerOpen ? "header-open " : "header-close "}>
-          <Link to="home" smooth={true} duration={500}>
+          <Link to="header" smooth={true} duration={1000}>
             <li>HOME</li>
           </Link>
-          <Link to="example" smooth={true} duration={500}>
+          <Link to="examples" smooth={true} duration={1000}>
             <li>PORTFOLIO</li>
           </Link>
-          <Link to="about" smooth={true} duration={500}>
+          <Link to="about" smooth={true} duration={1000}>
             <li>CONTACT</li>
           </Link>
-          <Link to="about" smooth={true} duration={500}>
+          <Link to="about" smooth={true} duration={1000}>
             <li>Cv</li>
           </Link>
         </ul>
