@@ -74,37 +74,37 @@
 .about-skills-html{
   width: 0;
   height: 100%;
-  background-color:  #ff0077;
+  background-color: white;
   animation: html 5s linear forwards;
 }
 .about-skills-css{
   width: 0;
   height: 100%;
-  background-color:  #ff0077;
+  background-color: white;
   animation: css 5s linear forwards;
 }
 .about-skills-javascripts{
   width: 0;
   height: 100%;
-  background-color:  #ff0077;
+  background-color: white;
   animation: javascripts 5s linear forwards;
 }
 .about-skills-react{
   width: 0;
   height: 100%;
-  background-color:  #ff0077;
+  background-color: white;
   animation: react 5s linear forwards;
 }
 .about-skills-figma {
   width: 0;
   height: 100%;
-  background-color:  #ff0077;
+  background-color: white;
   animation: figma 5s linear forwards;
 }
 .about-skills-vuejs{
   width: 0;
   height: 100%;
-  background-color:  #ff0077;
+  background-color: white;
   animation: vuejs 5s linear forwards;
 }
 @keyframes html{
