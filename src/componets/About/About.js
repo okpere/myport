@@ -82,7 +82,7 @@ const About = () => {
           <button className="hire">HIRE ME</button>
         </a>
         <a
-          href="https://drive.google.com/file/d/1Df0WVkGiaM4_b2_NwHC6-0kIknUo_nAR/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1FNQYmMTISGBXhUSAQg3TEHTk5nhBCM-P/view?usp=sharing"
           target="_blank"
           rel="noreferrer noopener"
         >
